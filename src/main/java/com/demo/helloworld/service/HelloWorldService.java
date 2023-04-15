@@ -23,7 +23,7 @@ public class HelloWorldService {
 		logger.debug("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
-			return "Hello Kuberenetes(Blur & Green Deployement)";
+			return "Hello AWS(Blur & Green Deployement)";
 		}else{
 			return "Hello " + name;
 		}
